@@ -1,0 +1,26 @@
+{
+  "cli": {
+    "version": ">= 15.0.10",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal"
+    },
+    "production": {
+      "autoIncrement": true
+    }
+  },
+  "submit": {
+    "production": {},
+    "ios": {
+      "appleId": "sanghoon.im@icloud.com",
+      "ascAppId": "6742548533",
+      "appleTeamId": "ZGL6B27HP3"
+    }
+  }
+}
